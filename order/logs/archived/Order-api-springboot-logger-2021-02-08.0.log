@@ -1,0 +1,800 @@
+2021-02-08 15:43:38,139 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 11768 (started by trole in C:\API Store\order)
+2021-02-08 15:43:38,148 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 15:43:39,493 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 15:43:39,580 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2021-02-08 15:43:40,776 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 15:43:40,929 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 15:43:41,210 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 15:43:41,563 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 15:43:42,139 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 15:43:42,164 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 15:43:43,550 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 15:43:43,561 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:43:45,086 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 15:43:45,825 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 15:43:47,135 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:43:48,106 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 15:43:48,229 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 15:43:48,291 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 15:43:48,683 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 11.156 seconds (JVM running for 14.745)
+2021-02-08 15:43:48,890 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 15:43:53,266 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:43:53,271 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:43:53,274 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 15:43:53,280 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 15:45:01,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 10704 (started by trole in C:\API Store\order)
+2021-02-08 15:45:01,029 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 15:45:02,471 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 15:45:02,555 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2021-02-08 15:45:03,499 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 15:45:03,574 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 15:45:03,740 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 15:45:04,069 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 15:45:04,538 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 15:45:04,559 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 15:45:05,406 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 15:45:05,416 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:45:06,901 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 15:45:07,560 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 15:45:08,139 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:45:08,834 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 15:45:08,860 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 15:45:08,917 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 15:45:09,152 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.659 seconds (JVM running for 11.428)
+2021-02-08 15:45:09,365 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 15:45:09,472 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#1701beb3:0/SimpleConnection@4842a683 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55001]
+2021-02-08 15:45:09,603 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:45:09,635 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:45:09,639 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 15:45:09,653 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 15:56:03,563 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReceiverRabbitMQ using Java 11.0.9 on DEV-LTL with PID 14248 (started by trole in C:\API Store\order)
+2021-02-08 15:56:03,565 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 15:56:04,890 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 15:56:04,957 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2021-02-08 15:56:05,729 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 15:56:05,833 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 15:56:06,038 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 15:56:06,454 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 15:56:07,144 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 15:56:07,163 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 15:56:07,870 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 15:56:07,886 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:56:09,241 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 15:56:09,727 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 15:56:10,134 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:56:10,594 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 15:56:10,616 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 15:56:10,649 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 15:56:10,839 INFO org.springframework.boot.StartupInfoLogger [main] Started ReceiverRabbitMQ in 7.966 seconds (JVM running for 10.105)
+2021-02-08 15:56:10,906 WARN org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [main] 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+2021-02-08 15:56:10,908 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 15:56:11,015 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#34c07ecc:0/SimpleConnection@e38b953 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55096]
+2021-02-08 15:56:11,471 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Waiting for workers to finish.
+2021-02-08 15:56:12,381 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Successfully waited for workers to finish.
+2021-02-08 15:56:12,386 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [SpringContextShutdownHook] Shutdown ignored - container is not active already
+2021-02-08 15:56:12,387 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:56:12,404 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:56:12,412 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 15:56:12,429 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 15:58:45,668 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 13628 (started by trole in C:\API Store\order)
+2021-02-08 15:58:45,671 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 15:58:47,140 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 15:58:47,240 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2021-02-08 15:58:48,246 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 15:58:48,318 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 15:58:48,477 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 15:58:48,756 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 15:58:49,225 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 15:58:49,259 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 15:58:50,239 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 15:58:50,250 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:58:51,551 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 15:58:52,032 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 15:58:52,430 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:58:52,922 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 15:58:52,951 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 15:58:52,988 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 15:58:53,211 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.428 seconds (JVM running for 10.85)
+2021-02-08 15:58:53,381 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 15:58:53,491 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#4c6eaa65:0/SimpleConnection@528070fe [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55130]
+2021-02-08 15:58:53,575 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:58:53,596 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:58:53,601 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 15:58:53,609 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 15:59:11,357 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 2516 (started by trole in C:\API Store\order)
+2021-02-08 15:59:11,360 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 15:59:12,748 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 15:59:12,830 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2021-02-08 15:59:13,825 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 15:59:13,925 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 15:59:14,118 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 15:59:14,423 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 15:59:14,893 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 15:59:14,914 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 15:59:15,907 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 15:59:15,916 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:59:17,229 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 15:59:17,768 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 15:59:18,596 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:59:19,410 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 15:59:19,443 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 15:59:19,496 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 15:59:19,767 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.036 seconds (JVM running for 11.542)
+2021-02-08 15:59:20,016 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 15:59:20,140 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@61a369cf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55151]
+2021-02-08 15:59:20,232 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 15:59:20,257 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 15:59:20,264 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 15:59:20,284 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:00:52,192 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 9460 (started by trole in C:\API Store\order)
+2021-02-08 16:00:52,194 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:00:53,688 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:00:53,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:00:54,758 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:00:54,846 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:00:55,055 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:00:55,364 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:00:55,825 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:00:55,843 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:00:56,821 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:00:56,831 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:00:59,042 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:00:59,487 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:00:59,890 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:01:00,623 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:01:00,664 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:01:00,712 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:01:01,010 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.419 seconds (JVM running for 12.124)
+2021-02-08 16:01:01,369 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:01:01,482 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#87f1201:0/SimpleConnection@7b381066 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55195]
+2021-02-08 16:01:01,612 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:01:01,657 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:01:01,663 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:01:01,671 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:05:18,486 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 1648 (started by trole in C:\API Store\order)
+2021-02-08 16:05:18,495 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:05:20,321 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:05:20,406 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:05:21,417 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:05:21,502 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:05:21,698 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:05:22,026 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:05:22,582 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:05:22,613 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:05:23,648 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:05:23,661 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:05:25,390 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:05:26,067 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:05:26,716 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:05:27,519 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:05:27,554 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:05:27,642 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:05:28,007 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 10.224 seconds (JVM running for 13.09)
+2021-02-08 16:05:28,299 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:05:28,437 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#6a261998:0/SimpleConnection@528070fe [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55298]
+2021-02-08 16:05:28,553 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:05:28,572 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:05:28,581 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:05:28,605 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:10:31,295 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 840 (started by trole in C:\API Store\order)
+2021-02-08 16:10:31,298 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:10:32,820 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:10:32,944 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:10:34,163 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:10:34,269 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:10:34,470 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:10:34,843 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:10:35,430 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:10:35,454 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:10:36,486 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:10:36,496 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:10:38,146 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:10:38,763 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:10:39,192 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:10:39,712 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:10:39,741 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:10:39,798 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:10:40,052 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.366 seconds (JVM running for 11.94)
+2021-02-08 16:10:40,301 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:10:40,409 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#87f1201:0/SimpleConnection@280cb0b4 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55395]
+2021-02-08 16:10:40,523 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:10:40,542 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:10:40,549 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:10:40,569 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:14:08,588 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 9644 (started by trole in C:\API Store\order)
+2021-02-08 16:14:08,590 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:14:10,145 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:14:10,239 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:14:11,153 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:14:11,235 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:14:11,415 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:14:11,713 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:14:12,158 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:14:12,196 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:14:13,091 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:14:13,100 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:14:14,589 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:14:15,055 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:14:15,512 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:14:16,078 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:14:16,104 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:14:16,139 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:14:16,363 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.443 seconds (JVM running for 10.62)
+2021-02-08 16:14:16,566 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:14:16,727 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@61a369cf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55662]
+2021-02-08 16:14:16,838 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:14:16,862 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:14:16,868 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:14:16,881 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:20:36,418 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 6068 (started by trole in C:\API Store\order)
+2021-02-08 16:20:36,421 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:20:37,961 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:20:38,048 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:20:38,996 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:20:39,082 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:20:39,319 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:20:39,647 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:20:40,174 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:20:40,195 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:20:41,057 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:20:41,069 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:20:42,467 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:20:42,940 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:20:43,358 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:20:43,923 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:20:43,974 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:20:44,016 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:20:44,279 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.397 seconds (JVM running for 10.538)
+2021-02-08 16:20:44,486 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:20:44,618 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#656672fb:0/SimpleConnection@c52c362 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55827]
+2021-02-08 16:20:44,741 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:20:44,767 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:20:44,770 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:20:44,779 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:22:12,915 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 8280 (started by trole in C:\API Store\order)
+2021-02-08 16:22:12,918 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:22:14,397 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:22:14,473 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:22:15,318 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:22:15,400 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:22:15,558 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:22:15,891 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:22:16,471 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:22:16,504 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:22:17,449 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:22:17,459 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:22:18,789 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:22:19,429 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:22:19,881 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:22:20,538 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:22:20,565 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:22:20,608 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:22:21,037 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.807 seconds (JVM running for 10.992)
+2021-02-08 16:22:21,274 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:22:21,418 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@61a369cf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55863]
+2021-02-08 16:22:21,519 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:22:21,541 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:22:21,547 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:22:21,583 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:22:30,847 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 13400 (started by trole in C:\API Store\order)
+2021-02-08 16:22:30,850 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:22:32,718 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:22:32,842 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:22:33,814 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:22:33,953 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:22:34,150 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:22:34,460 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:22:34,991 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:22:35,012 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:22:36,072 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:22:36,083 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:22:37,717 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:22:38,284 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:22:38,834 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:22:39,593 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:22:39,639 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:22:39,702 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:22:39,942 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 10.087 seconds (JVM running for 12.586)
+2021-02-08 16:22:40,176 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:22:40,301 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#21b2579d:0/SimpleConnection@280cb0b4 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55873]
+2021-02-08 16:22:40,387 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:22:40,413 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:22:40,419 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:22:40,428 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:24:21,376 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 5604 (started by trole in C:\API Store\order)
+2021-02-08 16:24:21,378 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:24:22,943 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:24:23,058 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:24:24,190 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:24:24,279 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:24:24,453 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:24:24,783 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:24:25,281 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:24:25,299 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:24:26,236 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:24:26,246 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:24:27,798 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:24:28,353 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:24:28,905 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:24:29,458 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:24:29,485 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:24:29,523 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:24:29,747 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.01 seconds (JVM running for 11.061)
+2021-02-08 16:24:29,934 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:24:30,046 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@108b2321 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55909]
+2021-02-08 16:24:30,329 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:24:30,363 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:24:30,367 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:24:30,373 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:28:45,124 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 12292 (started by trole in C:\API Store\order)
+2021-02-08 16:28:45,126 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:28:46,382 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:28:46,448 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:28:47,252 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:28:47,317 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:28:47,464 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:28:47,783 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:28:48,264 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:28:48,280 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:28:49,046 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:28:49,055 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:28:50,404 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:28:50,875 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:28:51,270 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:28:51,756 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:28:51,776 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:28:51,816 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:28:52,033 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 7.433 seconds (JVM running for 9.559)
+2021-02-08 16:28:52,240 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:28:52,337 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#70f3bf00:0/SimpleConnection@36134f3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55979]
+2021-02-08 16:28:52,473 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:28:52,496 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:28:52,503 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:28:52,511 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:47:20,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 13532 (started by trole in C:\API Store\order)
+2021-02-08 16:47:20,463 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:47:22,552 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:47:22,646 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:47:23,715 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:47:23,830 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:47:24,043 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:47:24,361 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:47:24,882 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:47:24,905 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:47:26,302 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:47:26,316 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:47:28,142 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:47:28,959 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:47:29,402 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:47:29,974 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:47:30,010 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:47:30,051 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:47:30,312 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 10.635 seconds (JVM running for 13.658)
+2021-02-08 16:47:30,690 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:47:30,806 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#539bb233:0/SimpleConnection@795ce9b5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56276]
+2021-02-08 16:47:30,952 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:47:30,978 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:47:30,980 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:47:30,991 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:54:43,336 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 9672 (started by trole in C:\API Store\order)
+2021-02-08 16:54:43,338 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:54:45,274 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:54:45,346 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:54:46,529 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:54:46,614 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:54:46,861 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:54:47,293 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:54:48,389 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:54:48,425 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:54:49,433 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:54:49,448 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:54:51,923 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:54:52,869 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:54:53,401 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:54:54,149 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:54:54,190 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:54:54,393 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:54:54,757 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 12.08 seconds (JVM running for 14.607)
+2021-02-08 16:54:55,249 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:54:55,638 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#87f1201:0/SimpleConnection@280cb0b4 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56454]
+2021-02-08 16:54:55,844 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:54:55,999 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:54:56,004 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:54:56,050 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 16:59:03,796 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 9728 (started by trole in C:\API Store\order)
+2021-02-08 16:59:03,798 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 16:59:05,288 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 16:59:05,384 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2021-02-08 16:59:06,883 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 16:59:07,161 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 16:59:07,346 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 16:59:07,683 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 16:59:08,453 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 16:59:08,471 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 16:59:09,343 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 16:59:09,353 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:59:10,613 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 16:59:11,235 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 16:59:11,727 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:59:12,313 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 16:59:12,336 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 16:59:12,368 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 16:59:12,614 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.366 seconds (JVM running for 11.869)
+2021-02-08 16:59:12,825 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 16:59:12,969 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#53f1fcc2:0/SimpleConnection@236e6563 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56557]
+2021-02-08 16:59:13,153 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 16:59:13,183 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 16:59:13,187 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 16:59:13,199 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:00:58,238 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 8896 (started by trole in C:\API Store\order)
+2021-02-08 17:00:58,244 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:00:59,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:00:59,613 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:01:00,593 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:01:00,709 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:01:00,885 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:01:01,216 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:01:01,741 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:01:01,766 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:01:02,844 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:01:02,854 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:01:04,145 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:01:04,608 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:01:05,030 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:01:05,562 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:01:05,584 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:01:05,626 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:01:05,883 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.241 seconds (JVM running for 10.629)
+2021-02-08 17:01:06,082 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:01:06,194 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@61a369cf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56582]
+2021-02-08 17:01:06,341 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:01:06,360 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:01:06,365 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:01:06,375 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:06:24,931 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReceiverRabbitMQ using Java 11.0.9 on DEV-LTL with PID 2268 (started by trole in C:\API Store\order)
+2021-02-08 17:06:24,933 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:06:26,248 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:06:26,337 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:06:27,146 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:06:27,223 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:06:27,408 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:06:27,753 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:06:28,208 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:06:28,228 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:06:29,033 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:06:29,043 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:06:30,248 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:06:30,693 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:06:31,106 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:06:31,627 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:06:31,653 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:06:31,688 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:06:31,917 INFO org.springframework.boot.StartupInfoLogger [main] Started ReceiverRabbitMQ in 7.575 seconds (JVM running for 9.711)
+2021-02-08 17:06:32,003 WARN org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [main] 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+2021-02-08 17:06:32,006 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:06:32,090 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#44df834c:0/SimpleConnection@61799152 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56695]
+2021-02-08 17:06:32,398 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Waiting for workers to finish.
+2021-02-08 17:06:33,335 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Successfully waited for workers to finish.
+2021-02-08 17:06:33,342 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [SpringContextShutdownHook] Shutdown ignored - container is not active already
+2021-02-08 17:06:33,343 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:06:33,363 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:06:33,366 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:06:33,374 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:08:10,516 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReceiverRabbitMQ using Java 11.0.9 on DEV-LTL with PID 9568 (started by trole in C:\API Store\order)
+2021-02-08 17:08:10,519 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:08:12,026 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:08:12,098 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:08:13,047 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:08:13,117 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:08:13,282 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:08:13,602 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:08:14,116 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:08:14,137 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:08:14,953 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:08:14,963 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:08:16,186 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:08:16,747 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:08:17,258 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:08:17,789 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:08:17,817 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:08:17,858 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:08:18,116 INFO org.springframework.boot.StartupInfoLogger [main] Started ReceiverRabbitMQ in 8.277 seconds (JVM running for 10.701)
+2021-02-08 17:08:18,194 WARN org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [main] 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+2021-02-08 17:08:18,196 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:08:18,346 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#27b7e663:0/SimpleConnection@753cfae3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56972]
+2021-02-08 17:08:18,645 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Waiting for workers to finish.
+2021-02-08 17:08:19,444 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Successfully waited for workers to finish.
+2021-02-08 17:08:19,452 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [SpringContextShutdownHook] Shutdown ignored - container is not active already
+2021-02-08 17:08:19,453 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:08:19,466 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:08:19,471 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:08:19,476 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:10:00,461 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReceiverRabbitMQ using Java 11.0.9 on DEV-LTL with PID 13016 (started by trole in C:\API Store\order)
+2021-02-08 17:10:00,463 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:10:01,819 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:10:01,900 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:10:02,784 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:10:02,868 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:10:03,062 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:10:03,376 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:10:03,866 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:10:03,888 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:10:04,805 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:10:04,818 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:10:06,183 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:10:06,668 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:10:07,205 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:10:07,751 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:10:07,781 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:10:07,824 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:10:08,078 INFO org.springframework.boot.StartupInfoLogger [main] Started ReceiverRabbitMQ in 8.232 seconds (JVM running for 10.892)
+2021-02-08 17:10:08,167 WARN org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [main] 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+2021-02-08 17:10:08,172 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:10:08,267 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#14ee143a:0/SimpleConnection@61f2bf3a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57174]
+2021-02-08 17:10:08,534 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Waiting for workers to finish.
+2021-02-08 17:10:09,375 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Successfully waited for workers to finish.
+2021-02-08 17:10:09,379 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [SpringContextShutdownHook] Shutdown ignored - container is not active already
+2021-02-08 17:10:09,380 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:10:09,394 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:10:09,398 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:10:09,405 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:11:25,261 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReceiverRabbitMQ using Java 11.0.9 on DEV-LTL with PID 11632 (started by trole in C:\API Store\order)
+2021-02-08 17:11:25,263 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:11:26,527 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:11:26,614 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:11:27,786 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:11:27,865 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:11:28,043 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:11:28,336 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:11:28,776 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:11:28,797 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:11:29,627 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:11:29,637 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:11:30,878 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:11:31,327 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:11:31,738 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:11:32,248 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:11:32,270 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:11:32,310 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:11:32,533 INFO org.springframework.boot.StartupInfoLogger [main] Started ReceiverRabbitMQ in 7.959 seconds (JVM running for 10.135)
+2021-02-08 17:11:32,610 WARN org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [main] 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+2021-02-08 17:11:32,613 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:11:32,755 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#4d1b4fa1:0/SimpleConnection@753cfae3 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57211]
+2021-02-08 17:11:33,044 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Waiting for workers to finish.
+2021-02-08 17:11:33,868 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Successfully waited for workers to finish.
+2021-02-08 17:11:33,873 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [SpringContextShutdownHook] Shutdown ignored - container is not active already
+2021-02-08 17:11:33,874 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:11:33,884 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:11:33,889 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:11:33,894 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:14:48,031 INFO org.springframework.boot.StartupInfoLogger [main] Starting ReceiverRabbitMQ using Java 11.0.9 on DEV-LTL with PID 4492 (started by trole in C:\API Store\order)
+2021-02-08 17:14:48,033 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:14:50,057 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:14:50,265 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 169 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:14:51,379 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:14:51,453 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:14:51,638 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:14:51,950 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:14:52,468 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:14:52,489 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:14:53,289 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:14:53,300 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:14:54,496 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:14:55,021 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:14:55,496 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:14:56,047 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:14:56,069 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:14:56,115 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:14:56,372 INFO org.springframework.boot.StartupInfoLogger [main] Started ReceiverRabbitMQ in 9.118 seconds (JVM running for 11.307)
+2021-02-08 17:14:56,456 WARN org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [main] 'missingQueuesFatal' is ignored during the initial start(), for lazily loaded containers
+2021-02-08 17:14:56,458 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:14:56,551 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#7df23848:0/SimpleConnection@5c39da9e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57267]
+2021-02-08 17:14:56,840 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Waiting for workers to finish.
+2021-02-08 17:14:57,645 INFO org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer [SpringContextShutdownHook] Successfully waited for workers to finish.
+2021-02-08 17:14:57,650 INFO org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer [SpringContextShutdownHook] Shutdown ignored - container is not active already
+2021-02-08 17:14:57,650 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:14:57,664 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:14:57,668 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:14:57,681 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:16:37,486 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 3408 (started by trole in C:\API Store\order)
+2021-02-08 17:16:37,490 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:16:38,883 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:16:38,968 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:16:39,883 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:16:39,983 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:16:40,144 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:16:40,442 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:16:40,912 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:16:40,933 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:16:41,750 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:16:41,759 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:16:43,260 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:16:43,874 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:16:44,482 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:16:45,740 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:16:45,780 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:16:45,826 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:16:46,130 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.201 seconds (JVM running for 11.597)
+2021-02-08 17:16:46,360 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:16:46,541 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@61a369cf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57321]
+2021-02-08 17:16:46,750 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:16:46,779 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:16:46,785 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:16:46,795 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:18:27,732 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 10760 (started by trole in C:\API Store\order)
+2021-02-08 17:18:27,735 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:18:29,340 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:18:29,417 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:18:30,489 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:18:30,572 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:18:30,773 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:18:31,192 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:18:31,742 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:18:31,784 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:18:33,004 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:18:33,014 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:18:34,646 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:18:35,200 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:18:35,703 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:18:36,502 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:18:36,526 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:18:36,563 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:18:36,863 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.795 seconds (JVM running for 12.383)
+2021-02-08 17:18:37,302 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:18:37,675 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#44df834c:0/SimpleConnection@65bc50c9 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57375]
+2021-02-08 17:18:37,842 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:18:37,873 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:18:37,881 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:18:37,895 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:25:08,920 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 7540 (started by trole in C:\API Store\order)
+2021-02-08 17:25:08,923 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:25:10,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:25:10,352 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:25:11,175 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:25:11,263 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:25:11,449 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:25:11,813 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:25:12,365 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:25:12,385 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:25:13,455 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:25:13,465 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:25:14,726 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:25:15,379 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:25:15,894 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:25:16,444 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:25:16,469 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:25:16,504 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:25:16,774 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 8.446 seconds (JVM running for 10.449)
+2021-02-08 17:25:16,993 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:25:17,113 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@61a369cf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57497]
+2021-02-08 17:25:17,243 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:25:17,266 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:25:17,274 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:25:17,280 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:29:02,259 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 10972 (started by trole in C:\API Store\order)
+2021-02-08 17:29:02,261 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:29:03,657 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:29:03,762 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:29:04,606 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:29:04,689 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:29:04,857 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:29:05,168 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:29:05,602 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:29:05,620 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:29:06,550 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:29:06,560 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:29:07,818 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:29:08,304 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:29:08,760 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:29:09,381 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:29:09,407 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:29:09,443 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:29:09,711 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 7.946 seconds (JVM running for 10.343)
+2021-02-08 17:29:09,967 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:29:10,071 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#21b2579d:0/SimpleConnection@795ce9b5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57769]
+2021-02-08 17:29:10,951 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:29:11,326 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:29:11,331 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:29:11,336 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:30:11,782 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 13544 (started by trole in C:\API Store\order)
+2021-02-08 17:30:11,783 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:30:13,275 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:30:13,393 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:30:14,394 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:30:14,498 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:30:14,678 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:30:15,074 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:30:15,605 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:30:15,626 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:30:16,501 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:30:16,513 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:30:18,104 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:30:18,686 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:30:19,241 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:30:19,766 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:30:19,789 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:30:19,838 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:30:20,089 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.057 seconds (JVM running for 11.434)
+2021-02-08 17:30:20,349 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:30:20,477 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#796613b7:0/SimpleConnection@7f2c36de [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57814]
+2021-02-08 17:30:22,598 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:30:23,248 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:30:23,260 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:30:23,296 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 17:31:06,150 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 11884 (started by trole in C:\API Store\order)
+2021-02-08 17:31:06,152 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 17:31:08,480 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 17:31:08,554 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2021-02-08 17:31:09,487 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 17:31:09,573 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 17:31:09,735 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 17:31:10,090 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 17:31:10,644 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 17:31:10,671 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 17:31:11,607 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 17:31:11,620 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:31:13,052 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 17:31:13,689 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 17:31:14,209 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:31:14,802 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 17:31:14,832 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 17:31:14,883 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 17:31:15,139 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 9.61 seconds (JVM running for 12.167)
+2021-02-08 17:31:15,370 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: [localhost:5672]
+2021-02-08 17:31:15,514 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: rabbitConnectionFactory#87f1201:0/SimpleConnection@457547a1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57853]
+2021-02-08 17:31:16,535 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 17:31:16,758 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 17:31:16,762 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 17:31:16,767 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 20:28:55,398 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 8280 (started by trole in C:\API Store\order)
+2021-02-08 20:28:55,400 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 20:28:56,497 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 20:28:56,564 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 2 JPA repository interfaces.
+2021-02-08 20:28:57,212 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 20:28:57,294 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 20:28:57,461 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 20:28:57,725 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 20:28:58,128 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 20:28:58,156 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 20:28:58,973 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 20:28:58,983 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 20:28:59,907 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 20:29:00,244 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 20:29:00,601 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 20:29:01,077 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 20:29:01,096 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 20:29:01,123 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 20:29:01,375 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 6.547 seconds (JVM running for 10.017)
+2021-02-08 20:29:01,546 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: localhost:5672
+2021-02-08 20:29:01,706 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: connectionFactory#ca2a03f:0/SimpleConnection@1c12f0f4 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59452]
+2021-02-08 20:29:01,718 INFO org.springframework.amqp.rabbit.core.RabbitAdmin [main] Auto-declaring a non-durable, auto-delete, or exclusive Queue (message_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-02-08 20:29:04,005 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 20:29:04,494 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 20:29:04,498 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 20:29:04,505 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-02-08 20:50:43,696 INFO org.springframework.boot.StartupInfoLogger [main] Starting RabbitMQTest using Java 11.0.9 on DEV-LTL with PID 14116 (started by trole in C:\API Store\order)
+2021-02-08 20:50:43,699 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-02-08 20:50:44,674 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-08 20:50:44,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2021-02-08 20:50:45,353 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-08 20:50:45,407 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-08 20:50:45,527 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-08 20:50:45,771 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-02-08 20:50:46,146 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-02-08 20:50:46,163 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-02-08 20:50:46,761 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-08 20:50:46,769 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 20:50:47,561 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-08 20:50:47,879 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-02-08 20:50:48,152 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-08 20:50:48,525 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-02-08 20:50:48,540 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-02-08 20:50:48,571 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-02-08 20:50:48,708 INFO org.springframework.boot.StartupInfoLogger [main] Started RabbitMQTest in 5.45 seconds (JVM running for 7.014)
+2021-02-08 20:50:48,843 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Attempting to connect to: localhost:5672
+2021-02-08 20:50:48,919 INFO org.springframework.amqp.rabbit.connection.AbstractConnectionFactory [main] Created new connection: connectionFactory#5a45c218:0/SimpleConnection@5f65a6d7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59624]
+2021-02-08 20:50:48,925 INFO org.springframework.amqp.rabbit.core.RabbitAdmin [main] Auto-declaring a non-durable, auto-delete, or exclusive Queue (message_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-02-08 20:50:50,182 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-08 20:50:50,319 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-02-08 20:50:50,323 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-02-08 20:50:50,331 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.

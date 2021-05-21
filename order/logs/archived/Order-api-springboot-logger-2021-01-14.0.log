@@ -1,0 +1,161 @@
+2021-01-14 22:15:22,462 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 6680 (started by trole in C:\API Store\order)
+2021-01-14 22:15:22,468 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:15:24,050 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:15:24,172 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:15:25,379 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:15:25,433 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:15:25,574 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:15:25,781 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:15:26,240 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:15:26,260 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:15:27,083 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:15:27,094 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:15:27,821 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:15:28,175 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:15:28,553 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:15:28,943 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:15:28,972 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:15:29,006 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:15:29,157 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 7.399 seconds (JVM running for 11.203)
+2021-01-14 22:15:29,565 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:15:29,569 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:15:29,571 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:15:29,578 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-01-14 22:17:55,884 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 10456 (started by trole in C:\API Store\order)
+2021-01-14 22:17:55,886 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:17:56,851 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:17:56,916 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:17:57,568 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:17:57,625 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:17:57,761 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:17:57,971 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:17:58,339 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:17:58,357 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:17:59,015 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:17:59,022 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:17:59,789 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:18:00,130 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:18:00,480 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:18:00,815 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:18:00,832 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:18:00,862 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:18:01,011 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 5.718 seconds (JVM running for 7.217)
+2021-01-14 22:18:01,427 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:18:01,432 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:18:01,436 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:18:01,442 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-01-14 22:22:13,204 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 6376 (started by trole in C:\API Store\order)
+2021-01-14 22:22:13,206 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:22:14,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:22:14,169 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:22:14,796 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:22:14,856 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:22:14,991 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:22:15,185 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:22:15,541 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:22:15,557 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:22:16,179 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:22:16,186 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:22:16,872 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:22:17,238 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:22:17,542 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:22:17,856 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:22:17,875 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:22:17,902 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:22:18,032 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 5.357 seconds (JVM running for 6.641)
+2021-01-14 22:22:18,402 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:22:18,404 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:22:18,407 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:22:18,412 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-01-14 22:23:41,146 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 4912 (started by trole in C:\API Store\order)
+2021-01-14 22:23:41,148 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:23:42,073 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:23:42,133 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:23:42,755 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:23:42,813 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:23:42,946 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:23:43,143 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:23:43,501 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:23:43,517 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:23:44,144 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:23:44,151 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:23:44,874 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:23:45,206 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:23:45,513 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:23:45,818 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:23:45,837 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:23:45,865 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:23:46,002 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 5.456 seconds (JVM running for 6.803)
+2021-01-14 22:23:46,352 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:23:46,355 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:23:46,357 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:23:46,361 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-01-14 22:25:28,492 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 8572 (started by trole in C:\API Store\order)
+2021-01-14 22:25:28,495 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:25:29,480 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:25:29,550 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:25:30,214 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:25:30,283 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:25:30,419 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:25:30,630 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:25:30,998 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:25:31,015 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:25:31,679 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:25:31,687 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:25:32,466 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:25:32,811 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:25:33,132 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:25:33,442 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:25:33,460 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:25:33,490 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:25:33,635 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 5.694 seconds (JVM running for 7.123)
+2021-01-14 22:25:34,109 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:25:34,111 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:25:34,114 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:25:34,118 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-01-14 22:26:10,457 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 9392 (started by trole in C:\API Store\order)
+2021-01-14 22:26:10,458 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:26:11,461 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:26:11,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:26:12,367 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:26:12,544 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:26:12,694 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:26:12,956 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:26:13,362 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:26:13,379 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:26:14,128 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:26:14,135 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:26:14,858 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:26:15,176 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:26:15,478 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:26:15,809 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:26:15,831 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:26:15,866 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:26:16,041 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 6.204 seconds (JVM running for 7.821)
+2021-01-14 22:26:16,461 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:26:16,464 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:26:16,467 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:26:16,472 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
+2021-01-14 22:48:16,668 INFO org.springframework.boot.StartupInfoLogger [main] Starting PedidoServiceTest using Java 11.0.9 on DEV-LTL with PID 10636 (started by trole in C:\API Store\order)
+2021-01-14 22:48:16,670 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: @spring.profiles.active@
+2021-01-14 22:48:17,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-14 22:48:17,776 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2021-01-14 22:48:18,476 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-14 22:48:18,543 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-14 22:48:18,686 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-14 22:48:18,891 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Starting...
+2021-01-14 22:48:19,287 INFO com.zaxxer.hikari.HikariDataSource [main] SpringBoot - Start completed.
+2021-01-14 22:48:19,301 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-01-14 22:48:20,009 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-14 22:48:20,016 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:48:20,850 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-14 22:48:21,443 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-14 22:48:21,887 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:48:22,313 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2021-01-14 22:48:22,335 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2021-01-14 22:48:22,374 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2021-01-14 22:48:22,580 INFO org.springframework.boot.StartupInfoLogger [main] Started PedidoServiceTest in 6.517 seconds (JVM running for 8.004)
+2021-01-14 22:48:23,006 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-14 22:48:23,010 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-14 22:48:23,014 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown initiated...
+2021-01-14 22:48:23,020 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] SpringBoot - Shutdown completed.
