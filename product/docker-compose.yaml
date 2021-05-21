@@ -1,0 +1,29 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: apiapp
+    container_name: app
+    ports:
+      - '8080:8080'
+    links:
+      - db
+
+  db:
+    build:
+      context: .
+      dockerfile: db/Dockerfile
+    image: apidb
+    container_name: db
+    ports:
+     - '3306:3306'
+    environment:
+          - MYSQL_ROOT_HOST=%
+          - MYSQL_USER=root
+          - MYSQL_DATABASE=produto
+          - MYSQL_ROOT_PASSWORD=root
+          - MYSQL_PASSWORD=root
+    volumes:
+      - ./docker/volume_mysql:/var/lib/mysql

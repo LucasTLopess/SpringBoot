@@ -1,0 +1,9 @@
+br\com\compasso\produtos\Produtos\Repositories\CategoriaRepository.class
+br\com\compasso\produtos\Produtos\Repositories\ProdutoRepository.class
+br\com\compasso\produtos\Produtos\Controllers\CategoriaController.class
+br\com\compasso\produtos\Produtos\Models\Categoria.class
+br\com\compasso\produtos\Produtos\Services\CategoriaService.class
+br\com\compasso\produtos\Produtos\Services\ProdutoService.class
+br\com\compasso\produtos\Produtos\Models\Produto.class
+br\com\compasso\produtos\Produtos\Controllers\ProdutoController.class
+br\com\compasso\produtos\Produtos\ProdutosApplication.class
