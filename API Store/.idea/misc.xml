@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/product/pom.xml" />
+        <option value="$PROJECT_DIR$/notification/pom.xml" />
+        <option value="$PROJECT_DIR$/client/client/cliente/pom.xml" />
+        <option value="$PROJECT_DIR$/payment/pagamento/pom.xml" />
+        <option value="$PROJECT_DIR$/promotion/PromocaoAPI/PromocaoAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/promotion/Promotions/PromocaoAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/../Projetos/Projeto Mongo DB/Projeto-Mongo-DB/pom.xml" />
+        <option value="$PROJECT_DIR$/priecing/pricing/pom.xml" />
+        <option value="$USER_HOME$/Desktop/projeto-inicial/forum/pom.xml" />
+        <option value="$USER_HOME$/Desktop/RabbitMQ/pom.xml" />
+        <option value="$USER_HOME$/Desktop/Repositories/RabbitMQ/RabbitMQ Hello World/pom.xml" />
+        <option value="$USER_HOME$/Desktop/Rabbit/RabbitMQ/RabbitMQ Hello World/pom.xml" />
+        <option value="$USER_HOME$/Desktop/Rabbit/RabbitMQ/pom.xml" />
+        <option value="$USER_HOME$/Desktop/loo/CoffeeAndCodeAMQP/consumer-api/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

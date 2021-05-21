@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="forum" />
+        <module name="RabbitMQ" />
+        <module name="Pedidos" />
+        <module name="cliente" />
+        <module name="Produtos" />
+        <module name="pagamento" />
+        <module name="consumer-api" />
+        <module name="pricing" />
+        <module name="PromocaoAPI" />
+        <module name="NotificacaoAPI" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cliente" target="11" />
+      <module name="consumer-api" target="1.8" />
+      <module name="forum" target="1.8" />
+      <module name="NotificacaoAPI" target="11" />
+      <module name="pagamento" target="11" />
+      <module name="Pedidos" target="11" />
+      <module name="pricing" target="1.8" />
+      <module name="producer-api" target="1.8" />
+      <module name="Produtos" target="11" />
+      <module name="Projeto-Mongo-DB" target="11" />
+      <module name="PromocaoAPI" target="11" />
+      <module name="RabbitMQ" target="11" />
+      <module name="springboot-rabbitmq-example" target="1.8" />
+      <module name="SpringBootJMSProducer" target="1.8" />
+      <module name="SpringBootJMSReceiver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="NotificacaoAPI" options="-parameters" />
+      <module name="Pedidos" options="-parameters" />
+      <module name="Produtos" options="-parameters" />
+      <module name="Projeto-Mongo-DB" options="-parameters" />
+      <module name="PromocaoAPI" options="-parameters" />
+      <module name="RabbitMQ" options="-parameters" />
+      <module name="SpringBootJMSProducer" options="-parameters" />
+      <module name="SpringBootJMSReceiver" options="-parameters" />
+      <module name="cliente" options="-parameters" />
+      <module name="consumer-api" options="-parameters" />
+      <module name="forum" options="-parameters" />
+      <module name="pagamento" options="-parameters" />
+      <module name="pricing" options="-parameters" />
+      <module name="producer-api" options="-parameters" />
+      <module name="springboot-rabbitmq-example" options="-parameters" />
+    </option>
+  </component>
+</project>

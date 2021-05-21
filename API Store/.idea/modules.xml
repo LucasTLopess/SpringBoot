@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/notification/NotificacaoAPI.iml" filepath="$PROJECT_DIR$/notification/NotificacaoAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order/Pedidos.iml" filepath="$PROJECT_DIR$/order/Pedidos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product/Produtos.iml" filepath="$PROJECT_DIR$/product/Produtos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promotion/Promotions/PromocaoAPI/PromocaoAPI.iml" filepath="$PROJECT_DIR$/promotion/Promotions/PromocaoAPI/PromocaoAPI.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Rabbit/RabbitMQ/RabbitMQ.iml" filepath="$USER_HOME$/Desktop/Rabbit/RabbitMQ/RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client/cliente/cliente.iml" filepath="$PROJECT_DIR$/client/client/cliente/cliente.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/loo/CoffeeAndCodeAMQP/consumer-api/consumer-api.iml" filepath="$USER_HOME$/Desktop/loo/CoffeeAndCodeAMQP/consumer-api/consumer-api.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/projeto-inicial/forum/forum.iml" filepath="$USER_HOME$/Desktop/projeto-inicial/forum/forum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/pagamento/pagamento.iml" filepath="$PROJECT_DIR$/payment/pagamento/pagamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/priecing/pricing/pricing.iml" filepath="$PROJECT_DIR$/priecing/pricing/pricing.iml" />
+    </modules>
+  </component>
+</project>
