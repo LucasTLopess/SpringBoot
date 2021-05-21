@@ -1,0 +1,8 @@
+br\com\compasso\promocao\PromocaoAPI\Models\Categoria.class
+br\com\compasso\promocao\PromocaoAPI\Models\Produtos.class
+br\com\compasso\promocao\PromocaoAPI\DTO\PedidoDTO.class
+br\com\compasso\promocao\PromocaoAPI\PromocaoApiApplication.class
+br\com\compasso\promocao\PromocaoAPI\Models\Pedido.class
+br\com\compasso\promocao\PromocaoAPI\Swagger\SwaggerConfig.class
+br\com\compasso\promocao\PromocaoAPI\Controllers\PromocaoController.class
+br\com\compasso\promocao\PromocaoAPI\Services\PromocaoService.class
