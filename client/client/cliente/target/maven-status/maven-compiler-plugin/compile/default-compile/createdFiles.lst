@@ -1,0 +1,11 @@
+com\example\projeto\cliente\modelo\Preferencia.class
+com\example\projeto\cliente\repository\ClienteRepository.class
+com\example\projeto\cliente\controller\ClienteController.class
+com\example\projeto\cliente\service\ClienteService.class
+com\example\projeto\cliente\dto\ClienteDetalhadoDto.class
+com\example\projeto\cliente\ClienteApplication.class
+com\example\projeto\cliente\dto\ClienteDto.class
+com\example\projeto\cliente\form\AtualizacaoClienteForm.class
+com\example\projeto\cliente\form\ClienteForm.class
+com\example\projeto\cliente\modelo\Status.class
+com\example\projeto\cliente\modelo\Cliente.class
