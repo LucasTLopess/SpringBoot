@@ -1,0 +1,9 @@
+com\application\pagamento\swagger\SwaggerConfig.class
+com\application\pagamento\repository\PagamentoRepository.class
+com\application\pagamento\model\Pagamento.class
+com\application\pagamento\model\Pedido.class
+com\application\pagamento\model\Status.class
+com\application\pagamento\model\Cliente.class
+com\application\pagamento\services\PagamentoService.class
+com\application\pagamento\controller\PagamentoController.class
+com\application\pagamento\PagamentoApplication.class

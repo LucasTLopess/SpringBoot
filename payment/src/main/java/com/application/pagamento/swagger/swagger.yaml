@@ -1,0 +1,67 @@
+swagger: '2.0'
+
+schemes:
+  - http
+  - https
+
+host: localhost:8080
+basePath: /pagamento
+
+info:
+  version: 1.0.0
+  title: Pagamento
+  description: Realiza Pagamento
+  termsOfService: http://localhost:8080/pagamento/termo-uso
+  contact:
+    name: Suporte
+    url: http://localhost:8080/pagamento/suporte
+    email: suporte@pagamento.com
+
+paths:
+  '/pagamento':
+    post:
+      summary: Realiza Pagamento
+      description: Realiza um Pagamento
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      operationId: realizaPagamento
+      parameters:
+        - in: body
+          name: pedido
+          schema:
+            $ref: '#/definitions/Pedido'
+      responses:
+        201:
+          description: Pagamento Realizado com Sucesso!
+          schema:
+            $ref: '#/definitions/Pagamento'
+        400:
+          description: Requisição inválida
+        500:
+          description: Erro interno no servidor
+
+definitions:
+  Pagamento:
+    type: object
+    properties:
+      idPagamento:
+        type: number
+        example: 234
+      valorPagamento:
+        type: number
+        format: double
+        example: 39,99
+      dataCriacao:
+        type: string
+        format: date-time
+        
+  Pedido:
+    type: object
+    properties:
+      valorPagamento:
+        type: number
+        format: double
+        example: 39,99
+      
