@@ -1,0 +1,17 @@
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\repository\MensagemRepository.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\service\EmailService.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\controller\MensagemController.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\NotificacaoApiApplication.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\service\TwilioConfig.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\configuration\ConfigRabbitMQ.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\service\MensagemService.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\dto\ClienteDTO.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\model\Cliente.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\model\Mensagem.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\configuration\ClientesApiConfiguration.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\swagger\SwaggerConfig.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\service\ConsumeAPICliente.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\service\SmsService.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\dto\PedidoMensagemDto.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\configuration\ClietesURL.java
+C:\API Store\notification\src\main\java\br\com\compasso\notificacao\notificationApi\dto\MensagemDTO.java

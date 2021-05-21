@@ -1,0 +1,17 @@
+br\com\compasso\notificacao\notificationApi\configuration\ClietesURL.class
+br\com\compasso\notificacao\notificationApi\controller\MensagemController.class
+br\com\compasso\notificacao\notificationApi\service\MensagemService.class
+br\com\compasso\notificacao\notificationApi\repository\MensagemRepository.class
+br\com\compasso\notificacao\notificationApi\service\EmailService.class
+br\com\compasso\notificacao\notificationApi\dto\PedidoMensagemDto.class
+br\com\compasso\notificacao\notificationApi\swagger\SwaggerConfig.class
+br\com\compasso\notificacao\notificationApi\dto\MensagemDTO.class
+br\com\compasso\notificacao\notificationApi\model\Mensagem.class
+br\com\compasso\notificacao\notificationApi\service\ConsumeAPICliente.class
+br\com\compasso\notificacao\notificationApi\service\TwilioConfig.class
+br\com\compasso\notificacao\notificationApi\model\Cliente.class
+br\com\compasso\notificacao\notificationApi\NotificacaoApiApplication.class
+br\com\compasso\notificacao\notificationApi\configuration\ConfigRabbitMQ.class
+br\com\compasso\notificacao\notificationApi\configuration\ClientesApiConfiguration.class
+br\com\compasso\notificacao\notificationApi\dto\ClienteDTO.class
+br\com\compasso\notificacao\notificationApi\service\SmsService.class

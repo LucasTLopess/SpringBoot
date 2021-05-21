@@ -1,0 +1,147 @@
+swagger: '2.0'
+info:
+  description: Envia mensagens de notificações para telefone e email.
+  version: V1.0.0
+  title: API Notifcação
+  contact:
+    name: Lucas T. Lopes
+    url: 'https://github.com/LucasTroleiz'
+    email: troleizlucas@gmail.com
+host: 'localhost:8085'
+basePath: /
+tags:
+  - name: mensagem-controller
+    description: Mensagem Controller
+paths:
+  '/mensagem/deletar/{id}':
+    delete:
+      tags:
+        - mensagem-controller
+      summary: deletarPorId
+      operationId: deletarPorIdUsingDELETE
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - name: id
+          in: path
+          description: id
+          required: true
+          type: integer
+          format: int64
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: string
+        '204':
+          description: No Content
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+  /mensagem/enviar:
+    post:
+      tags:
+        - mensagem-controller
+      summary: enviarMensagem
+      operationId: enviarMensagemUsingPOST
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - in: body
+          name: mensagem
+          description: mensagem
+          required: true
+          schema:
+            $ref: '#/definitions/Mensagem'
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/Mensagem'
+        '201':
+          description: Created
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  /mensagem/listar:
+    get:
+      tags:
+        - mensagem-controller
+      summary: listarMensagens
+      operationId: listarMensagensUsingGET
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/MensagemDTO'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+  '/mensagem/listar/{id}':
+    get:
+      tags:
+        - mensagem-controller
+      summary: listarMensagensPorId
+      operationId: listarMensagensPorIdUsingGET
+      consumes:
+        - application/json
+      produces:
+        - '*/*'
+      parameters:
+        - name: id
+          in: path
+          description: id
+          required: true
+          type: integer
+          format: int64
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/MensagemDTO'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: Not Found
+definitions:
+  Mensagem:
+    type: object
+    properties:
+      id_Cliente:
+        type: integer
+        format: int64
+      mensagem:
+        type: string
+  MensagemDTO:
+    type: object
+    properties:
+      data:
+        type: string
+        example: 'yyyy-MM-dd@HH:mm:ss'
+      id:
+        type: integer
+        format: int64
+      id_Cliente:
+        type: integer
+        format: int64
+      mensagem:
+        type: string

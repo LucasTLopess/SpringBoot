@@ -1,0 +1,6 @@
+br\com\compasso\notificacao\notificationApi\intregado\service\ConsumeAPIClienteTest.class
+br\com\compasso\notificacao\notificationApi\NotificacaoApiApplicationTests.class
+br\com\compasso\notificacao\notificationApi\unitario\ConsumirApiTest.class
+br\com\compasso\notificacao\notificationApi\intregado\service\MensagemServiceTest.class
+br\com\compasso\notificacao\notificationApi\unitario\EnviarMensagemTest.class
+br\com\compasso\notificacao\notificationApi\mocker\configuration\ClietesURLTest.class
